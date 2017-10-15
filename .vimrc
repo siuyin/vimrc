@@ -1,4 +1,4 @@
-execute pathogen#infect()
+"execute pathogen#infect()
 
 syntax on
 filetype plugin indent on
@@ -8,10 +8,10 @@ set autowrite
 map <C-n> :cnext<CR>
 map <C-m> :cprev<CR>
 noremap <leader>a :cclose<CR>
-let g:go_list_type = "quickfix"
+"let g:go_list_type = "quickfix"
 
-autocmd FileType go nmap <leader>b  <Plug>(go-build)
-autocmd FileType go nmap <leader>r  <Plug>(go-run)
+"autocmd FileType go nmap <leader>b  <Plug>(go-build)
+"autocmd FileType go nmap <leader>r  <Plug>(go-run)
 
 set guifont=Source_Code_Pro:h11:cANSI:qDRAFT
 
